@@ -13,10 +13,17 @@ Input: 1 20 5
 Output: 30
 """
 
-# l, r, k = 2, 7, 3
+# # l, r, k = 2, 7, 3
 l, r, k = 1, 20, 5
 sum = 0
 for i in range(l+1, r):
     if i % k == 0:
         sum += i
 print(sum)
+
+# # Kalau mau hitung ada berapa bilangannya
+# count = 0
+# for i in range(l+1, r):
+#     if i % k == 0:
+#         count += 1
+# print(count)
