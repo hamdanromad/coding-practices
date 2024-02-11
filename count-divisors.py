@@ -21,7 +21,7 @@ for i in range(l+1, r):
         sum += i
 print(sum)
 
-# # Kalau mau hitung ada berapa bilangannya
+# # If you want to count how many numbers there are
 # count = 0
 # for i in range(l+1, r):
 #     if i % k == 0:
