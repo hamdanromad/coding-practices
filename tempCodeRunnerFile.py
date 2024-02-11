@@ -1,21 +1,3 @@
-"""
-Problem : Compounding 
-
-Create a function that takes a string and returns 
-a new string with each new character accumulating by +1. 
-Separate each set with a dash. 
-Capitalize the first letter of each set.
-
-"""
-# comp = "abcde"
-# result = ""
-# for i in range(len(comp)):
-#     result += comp[i].upper()
-#     result += comp[i].lower() * (i)
-#     if i != len(comp) - 1:
-#         result += "-"
-# print(result)
-
 def compounding(input):
     result = ""
     for i in range(len(input)):
