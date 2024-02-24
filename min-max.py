@@ -12,10 +12,10 @@ Input:
 input > 0, must be number.
 """
 
-input_1 = Hello
+input_1 = 'Hello'
 input_2 = 18
 
-if (0 < input_1 < 50) and (0 < input_2 < 50):
+if isinstance(input_1, int) and isinstance(input_2, int) and (0 < input_1 < 50) and (0 < input_2 < 50):
     if input_1 == input_2:
         print("Same Input")
     elif input_1 % 5 == input_2 % 5:
